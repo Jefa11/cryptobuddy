@@ -16,7 +16,7 @@ python -m pip install --user requests
 From PowerShell run:
 
 ```powershell
-python e:\basic\plp\Cryptobuddy.py
+python Cryptobuddy.py
 ```
 
 You should see an intro and a JSON summary similar to:
@@ -52,5 +52,6 @@ You should see an intro and a JSON summary similar to:
 - Add caching and rate-limit handling for the CoinGecko API.
 
 ---
+
 
 `Cryptobuddy.py` was updated to add error handling and a runnable `main()` during debugging.
